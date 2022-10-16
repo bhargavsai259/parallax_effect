@@ -1,0 +1,57 @@
+
+
+/*   iam applied to use in index   */
+*{
+    border:0;
+    padding:0;
+    margin: 0;
+
+}
+
+div{
+    display:flex;
+    align-items: center;
+    justify-content:center; /* brings data left or right  or center*/
+    font-weight:bold;
+    font-family:big john;
+    width:100%;
+    height:100vh;
+
+}
+
+h2 { 
+font: size 68px;
+background:white;
+padding:8px 24px;    /*  iam  Div in white boxes */
+border-radius: 16px;
+}
+
+div:nth-child(1){
+    background:black;   /*sitename heading*/
+
+}
+
+
+div:nth-child(2){
+    background-image: url(images/p1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+div:nth-child(3){
+    background:maroon;
+    height:800px;
+}
+
+div:nth-child(4){
+    height:400px;
+    background-image:url(images/p2.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+div:nth-child(5){
+    height:400px;
+    background:aquamarine;
+}
